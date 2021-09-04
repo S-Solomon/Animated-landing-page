@@ -47,6 +47,7 @@ const HeaderContentStyled = styled.div`
         }
         .white {
             padding: 1.4rem 0;
+            color: white;
         }
     }
     .right-content {

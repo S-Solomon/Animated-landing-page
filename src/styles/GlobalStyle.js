@@ -29,10 +29,15 @@ const GlobalStyle = createGlobalStyle`
         color: inherit;
     }
 
-
     p {
         line-height: 1.9;
         letter-spacing: 1.1px;
+        color: var(--lavendar-secondary);
+    }
+
+    .secondary-heading {
+        font-size: 3rem;
+        color: var(--purple-primary);
     }
 `;
 
