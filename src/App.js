@@ -1,8 +1,13 @@
+import { OuterLayout } from "./styles/Layouts";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1>welcome to react</h1>
+      <Header />
+      <OuterLayout>
+        
+      </OuterLayout>
     </div>
   );
 }
