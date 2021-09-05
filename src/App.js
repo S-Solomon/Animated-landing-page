@@ -5,6 +5,7 @@ import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import MessaginSection from "./components/MessaginSection";
 import PaymentSection from "./components/PaymentSection";
+import FAQSection from "./components/FAQSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <ChartSection />
           <MessaginSection />
           <PaymentSection />
+          <FAQSection />
         </MainStyled>
       </OuterLayout>
     </div>
