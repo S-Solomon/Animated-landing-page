@@ -23,7 +23,10 @@ const HeaderStyled = styled.header`
     background-size: cover;
     background-position-y: 100%;
     .header-content {
-        padding: 0 10rem;
+        padding: 0 18rem;
+    }
+    @media(max-width: 1440px) {
+        /* padding: 0rem 0rem; */
     }
 
 `;

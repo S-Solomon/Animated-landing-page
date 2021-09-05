@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const OuterLayout = styled.section`
-    padding: 5rem 10rem;
+    padding: 5rem 18rem;
+    @media (max-width: 1440px) {
+        /* padding: 5rem 10rem; */
+    }
 `;
 
 

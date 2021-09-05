@@ -1,7 +1,8 @@
 import { OuterLayout } from "./styles/Layouts";
+import styled from "styled-components";
 import Header from "./components/Header";
 import CardSection from "./components/CardSection";
-import styled from "styled-components";
+import ChartSection from "./components/ChartSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <OuterLayout>
         <MainStyled>
           <CardSection />
+          <ChartSection />
         </MainStyled>
       </OuterLayout>
     </div>

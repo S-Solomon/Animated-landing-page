@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: var(----neutral-light);
+        background-color: var(--neutral-light);
         font-family: 'Nunito', sans-serif;
         color: white;
         font-size: 1.2rem;
