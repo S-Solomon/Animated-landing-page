@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import CardSection from "./components/CardSection";
 import ChartSection from "./components/ChartSection";
 import MessaginSection from "./components/MessaginSection";
+import PaymentSection from "./components/PaymentSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <CardSection />
           <ChartSection />
           <MessaginSection />
+          <PaymentSection />
         </MainStyled>
       </OuterLayout>
     </div>
