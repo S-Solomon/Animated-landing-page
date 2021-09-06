@@ -64,6 +64,15 @@ export default Footer
 const FooterStyled = styled.footer`
     padding: 0 18rem;
     background-color: #DCE2F0;
+    @media screen and (max-width: 1347px){
+        padding: 5rem 14rem;
+    }
+    @media screen and (max-width: 1186px){
+        padding: 5rem 8rem;
+    }
+    @media screen and (max-width: 990px){
+        padding: 5rem 4rem;
+    }
     .footer-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
