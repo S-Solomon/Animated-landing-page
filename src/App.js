@@ -6,6 +6,7 @@ import ChartSection from "./components/ChartSection";
 import MessaginSection from "./components/MessaginSection";
 import PaymentSection from "./components/PaymentSection";
 import FAQSection from "./components/FAQSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <MessaginSection />
           <PaymentSection />
           <FAQSection />
+          <Footer />
         </MainStyled>
       </OuterLayout>
     </div>
