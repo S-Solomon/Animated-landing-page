@@ -4,6 +4,7 @@ import { InnerLayout } from '../styles/Layouts'
 import ChartStats from './ChartStats'
 import chart from '../img/chart.svg'
 import AnimatedButton from './AnimatedButton'
+import { Slide, Bounce } from 'react-reveal'
 
 const ChartSection = () => {
     return (
@@ -24,11 +25,15 @@ const ChartSection = () => {
                         <h2 className="secondary-heading">
                             Manage your finances like a pro in no time 
                         </h2>
+                        <Slide right>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem officia nemo distinctio dolores necessitatibus odit magni corrupti error, 
                             voluptate alias adipisci ducimus nostrum maiores. Ad?
                         </p>
+                        </Slide>
+                        <Bounce right>
                         <AnimatedButton name={'Learn More'}/>
+                        </Bounce>
                     </div>
                 </div>
             </InnerLayout>

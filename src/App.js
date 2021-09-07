@@ -7,6 +7,7 @@ import MessaginSection from "./components/MessaginSection";
 import PaymentSection from "./components/PaymentSection";
 import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
+import { Fade } from 'react-reveal'
 
 function App() {
   return (
@@ -14,14 +15,26 @@ function App() {
       <Header />
       <OuterLayout>
         <MainStyled>
+        <Fade left>
           <CardSection />
+        </Fade>
+        <Fade right>
           <ChartSection />
+        </Fade>
+        <Fade left>
           <MessaginSection />
+        </Fade>
+        <Fade right>
           <PaymentSection />
+        </Fade>
+        <Fade left>
           <FAQSection />
-          <Footer />
+        </Fade>
         </MainStyled>
       </OuterLayout>
+      <Fade bottom>
+        <Footer />
+      </Fade>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components';
 import plus from '../img/plus.svg';
 import minus from '../img/minus.svg';
+import { Fade } from 'react-reveal'
 
 
 const Questions = ({title, description}) => {
@@ -12,6 +13,7 @@ const Questions = ({title, description}) => {
     }
 
     return (
+        <Fade left cascade>
         <QuestionStyled>
             <div className="question-container">
                 <div className="toggle-title">
@@ -23,6 +25,7 @@ const Questions = ({title, description}) => {
                 {toggle && <p>{description}</p>}
             </div>
         </QuestionStyled>
+        </Fade>
     )
 }
 
